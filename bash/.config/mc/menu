@@ -1,0 +1,17 @@
+shell_patterns=0
+
++ ! t t
+d       Open (d)irectory in Explorer
+	start "`wslpath -wa "%d"`"
+
++ ! t t
+x       E(x)ecute Dos file
+	exe "%f"
+
++ ! t t
+X       E(X)ecute Windows file
+	start "%f"
+
++ ! t t
+n       Open in (n)otepad++
+	n++ "%f"

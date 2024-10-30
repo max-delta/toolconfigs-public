@@ -1,0 +1,5 @@
+#!/bin/bash
+
+REAL=`realpath "$1"`
+WIN=`wslpath -a -w "$REAL"`
+'/mnt/c/LOCATION_GOES_HERE/N++/notepad++.exe' "$WIN"

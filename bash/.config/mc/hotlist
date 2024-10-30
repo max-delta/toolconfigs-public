@@ -1,0 +1,3 @@
+ENTRY "/" URL "/"
+ENTRY "/mnt/c" URL "/mnt/c"
+ENTRY "/usr/local/bin" URL "/usr/local/bin"
